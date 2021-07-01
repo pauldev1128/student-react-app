@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const baseurl = 'http://ec2-35-170-70-108.compute-1.amazonaws.com:8080';
+const baseurl = 'http://ec2-13-56-184-221.us-west-1.compute.amazonaws.com:8080';
 
 // custom hook for performing GET request
 export const useFetch = (searchMethod, searchValue) => {
